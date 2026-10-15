@@ -16,13 +16,11 @@
 
 1. 打开 IDEA 的 **Settings → Plugins**。
 2. 点击齿轮，选择 **Install Plugin from Disk…**。
-3. 选择 `idea-code-location-copy-1.0.5.zip`，不用解压。
+3. 选择 `idea-code-location-copy-1.0.6.zip`，不用解压。
 4. 按 IDEA 提示重启或启用插件。
 5. 在编辑器选中代码，右键点击 **复制代码定位**，再去聊天输入框粘贴。
 
-插件名称是 **idea-code-location-copy**。“复制代码定位”显示在编辑器右键菜单最上方，macOS 快捷键为 **Option + Command + O（⌥⌘O）**。
-
-IDEA 默认 macOS 键位中的“跳转到符号”（Go to Symbol）也使用 ⌥⌘O。使用默认键位时，请在 **Settings → Keymap** 解除该操作的同键绑定，并确认“复制代码定位”使用该快捷键。
+插件名称是 **idea-code-location-copy**。“复制代码定位”显示在编辑器右键菜单最上方，macOS 快捷键为 **Command + Option + Control + C（⌘⌥⌃C）**。
 
 插件 ID 已随名称更新，安装新版前请先卸载旧插件，避免出现重复菜单。
 
@@ -36,7 +34,7 @@ python3 build.py \
   --jdk-home '/Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home'
 ```
 
-安装包默认生成到 `dist/idea-code-location-copy-1.0.5.zip`。可用 `--output` 和 `--build-dir` 指定输出位置。
+安装包默认生成到 `dist/idea-code-location-copy-1.0.6.zip`。可用 `--output` 和 `--build-dir` 指定输出位置。
 
 最低平台版本为 261（IDEA 2026.1），字节码目标为 Java 21。使用本机 IDEA 2026.1（IU-261.22158.277）SDK 编译。其他 IDEA 版本未验证。
 

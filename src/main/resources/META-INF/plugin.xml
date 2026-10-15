@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>com.local.idea-code-location-copy</id>
     <name>idea-code-location-copy</name>
-    <version>1.0.5</version>
+    <version>1.0.6</version>
     <vendor>Local Tools</vendor>
     <description>按代码绝对路径#行号格式复制当前代码位置，方便粘贴到聊天中。</description>
     <idea-version since-build="261"/>
@@ -13,8 +13,8 @@
                 icon="/icons/note.png"
                 description="按代码绝对路径#行号格式复制到剪贴板">
             <add-to-group group-id="EditorPopupMenu" anchor="first"/>
-            <keyboard-shortcut keymap="Mac OS X" first-keystroke="meta alt O"/>
-            <keyboard-shortcut keymap="Mac OS X 10.5+" first-keystroke="meta alt O"/>
+            <keyboard-shortcut keymap="Mac OS X" first-keystroke="meta alt control C"/>
+            <keyboard-shortcut keymap="Mac OS X 10.5+" first-keystroke="meta alt control C"/>
         </action>
     </actions>
 </idea-plugin>

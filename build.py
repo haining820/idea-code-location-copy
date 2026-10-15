@@ -20,7 +20,7 @@ def main():
     parser.add_argument("--jdk-home", type=Path,
                         help="包含 bin/javac 的 JDK 21 或更高版本目录")
     parser.add_argument("--output", type=Path,
-                        default=root / "dist" / "idea-code-location-copy-1.0.5.zip")
+                        default=root / "dist" / "idea-code-location-copy-1.0.6.zip")
     parser.add_argument("--build-dir", type=Path, default=root / "build")
     args = parser.parse_args()
 
